@@ -13,7 +13,7 @@ def main():
 
     battingAvg = int(input("What is your character's batting average? (0-300): "))
     
-    #Trying to idiot proof the code
+    #Trying to make code user friendly
     if battingAvg < 0:
         print("You're not follwing directions, please enter a number above -1.")
         input("Press <enter> to restart the program")
